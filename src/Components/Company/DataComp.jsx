@@ -3,12 +3,12 @@ import irsyad from '../../Images/irsyad.jpg'
 import hadaina from '../../Images/hadaina.jpg'
 import azrul from '../../Images/azrul.jpg'
 import fajar from '../../Images/fajar.jpeg'
-// import ridwan from '../../Images/ridwan.jpg'
-// import silmi from '../../Images/silmi.jpg'
-// import syahrul from '../../Images/syahrul.jpg'
-// import shofie from '../../Images/shofie.jpg'
-// import eulis from '../../Images/eulis.jpg'
-// import syifa from '../../Images/syifa.jpg'
+import ridwan from '../../Images/ridwan.jpg'
+import silmi from '../../Images/silmi.jpg'
+import syahrul from '../../Images/syahrul.jpeg'
+import sofie from '../../Images/shofie.jpg'
+import eulis from '../../Images/eulis.jpg'
+import syifa from '../../Images/syifa.jpg'
 
 export const profileData = [
     {
@@ -41,4 +41,46 @@ export const profileData = [
         name: 'Fajar Salam',
         job: 'Design Product'
     },
+    {
+        background: background,
+        img: ridwan,
+        alt: 'ridwan',
+        name: 'Muhamad Ridwan Assydiq',
+        job: 'Video Grapher'
+    },
+    {
+        background: background,
+        img: eulis,
+        alt: eulis,
+        name: 'Eulis Latifah',
+        job: 'Accounting'
+    },
+    {
+        background: background,
+        img: silmi,
+        alt: silmi,
+        name: 'Silmi Fadhilatunnisa',
+        job: 'Marketing Strategist'
+    },
+    {
+        background: background,
+        img: syahrul,
+        alt: syahrul,
+        name: 'Syahrul Gumilang',
+        job: 'Branding Manager'
+    },
+    {
+        background: background,
+        img: sofie,
+        alt: sofie,
+        name: 'Sofie Baetillah Sidkiyah',
+        job: 'Marketing Analyst'
+    },
+    {
+        background: background,
+        img: syifa,
+        alt: syifa,
+        name: 'Nur Syifa',
+        job: 'Public Relation'
+    }
 ]

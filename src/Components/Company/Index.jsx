@@ -1,4 +1,3 @@
-
 import React from 'react'
 import {
     CompanyContainer,
@@ -15,7 +14,7 @@ const company = ({heading, data}) => {
     return (
         <>
          <CompanyContainer>
-             <CompanyH1>{heading}</CompanyH1>
+         <CompanyH1>{heading}</CompanyH1>
              <CompanyWrapper>
                  {data.map((product, index) => {
                      return (

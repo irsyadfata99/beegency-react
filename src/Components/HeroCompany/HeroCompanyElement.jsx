@@ -1,13 +1,12 @@
 import styled from 'styled-components'
+import ImgBg from '../../Images/Hexagonal.jpg'
 
-export const AboutContainer = styled.div`
-    color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
-
-
-    @media screen and (max-width: 769px) {
-        padding: 100px 0;
-    }
+export const HeroContainer = styled.div`
+    background: linear-gradient(to right, rgba(0,0,0,0.7),
+    rgba(0,0,0,0.1)), url(${ImgBg});
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
 `
 
 export const AboutWrapper = styled.div`

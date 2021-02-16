@@ -24,20 +24,59 @@ export const CompanyWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 100px;
-    padding: 0 0px;
+    margin: 100px;
+
+    @media screen and (max-width: 700px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 1000px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 1300px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 `
 
 export const CompanyCard = styled.div`
-    width: 21%;
+    width: 20%;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 25px;
-    margin: auto;
+    margin: 10px;
     box shadow: .5rem .5rem 3rem rgba(0, 0, 0, 0.2);
+
+    @media screen and (max-width: 700px) {
+        margin: 2rem;
+        width: 20rem;
+    }
+
+    @media screen and (max-width: 1000px) {
+        margin: 2rem;
+        width: 15rem;
+    }
+
+    @media screen and (max-width: 1300px) {
+        margin: 2rem;
+        width: 15rem;    }
+`
+
+export const CompanyJ = styled.div`
+    padding-bottom: 100px;
+
 `
 
 export const CompanyIMG = styled.img`

@@ -40,8 +40,8 @@ const AboutUs = ({
 }
     return (
         <>
-            <AboutContainer lightBg={lightBg} id={id}>
             <Navbar toggle={toggle}/>
+            <AboutContainer lightBg={lightBg} id={id}>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
                 <AboutWrapper>
                     <AboutRow imgStart={imgStart}>
